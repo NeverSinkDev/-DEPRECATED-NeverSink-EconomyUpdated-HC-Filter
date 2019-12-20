@@ -2764,7 +2764,7 @@ Show # %H4 %C4 $tier->t32 $type->currency
 	SetBorderColor 0 0 0 200                # BORDERCOLOR:	 Neutral T2
 	SetBackgroundColor 210 178 135 255      # BACKGROUND:	 Currency T5
 
-Show # %H3 %C3 $tier->t33 $type->currency
+Hide # %H3 %C3 $tier->t33 $type->currency
 	Class Currency
 	BaseType "Binding Shard" "Alchemy Shard" "Blacksmith's Whetstone" "Orb of Augmentation" "Orb of Transmutation"
 	SetFontSize 45
@@ -4603,7 +4603,7 @@ Show # $lvl->5
 	PlayEffect White Temp
 	MinimapIcon 2 White Square
 
-Show # %H3 %C4
+Hide # %H3 %C4
 	MapTier >= 5
 	Class Maps
 	SetTextColor 150 150 150                # TEXTCOLOR:	 outleveled
@@ -4626,7 +4626,7 @@ Show # $lvl->4
 	PlayEffect White Temp
 	MinimapIcon 2 White Square
 
-Show # %H3 %C4
+Hide # %H3 %C4
 	MapTier >= 4
 	Class Maps
 	SetTextColor 150 150 150                # TEXTCOLOR:	 outleveled
@@ -4649,7 +4649,7 @@ Show # $lvl->3
 	PlayEffect White Temp
 	MinimapIcon 2 White Square
 
-Show # %H3 %C4
+Hide # %H3 %C4
 	MapTier >= 3
 	Class Maps
 	SetTextColor 150 150 150                # TEXTCOLOR:	 outleveled
@@ -4672,7 +4672,7 @@ Show # $lvl->2
 	PlayEffect White Temp
 	MinimapIcon 2 White Square
 
-Show # %H3 %C4
+Hide # %H3 %C4
 	MapTier >= 2
 	Class Maps
 	SetTextColor 150 150 150                # TEXTCOLOR:	 outleveled
@@ -4695,7 +4695,7 @@ Show # $lvl->1
 	PlayEffect White Temp
 	MinimapIcon 2 White Square
 
-Show # %H3 %C4
+Hide # %H3 %C4
 	MapTier <= 1
 	Class Maps
 	SetTextColor 150 150 150                # TEXTCOLOR:	 outleveled
@@ -5193,7 +5193,7 @@ Show
 	SetBorderColor 255 178 135 135          # BORDERCOLOR:	 Perandus Coin
 	PlayEffect White
 
-Show # %H3 %C4
+Hide # %H3 %C4
 	StackSize < 4
 	Class Currency
 	BaseType "Perandus Coin"
@@ -5476,7 +5476,7 @@ Show # %H4 %C5 $tier->t5c $type->divination
 #   [3106] T5 - Format trash tier cards... before
 #------------------------------------
 
-Show # %H3 %C3 $tier->t5 $type->divination
+Hide # %H3 %C3 $tier->t5 $type->divination
 	Class "Divination"
 	BaseType "A Mother's Parting Gift" "Birth of the Three" "Dark Temptation" "Death" "Destined to Crumble" "Dying Anguish" "Lantador's Lost Love" "Light and Truth" "Prosperity" "Rain Tempter" "The Blazing Fire" "The Carrion Crow" "The Cataclysm" "The Conduit" "The Fathomless Depths" "The Hermit" "The Inoculated" "The King's Blade" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Mountain" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Sigil" "The Siren" "The Sun" "The Warden" "The Watcher" "The Witch" "Thunderous Skies" "Turn the Other Cheek" "Cartographer's Delight" "The Deceiver" "Anarchy's Price"
 	SetFontSize 36
